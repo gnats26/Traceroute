@@ -1,0 +1,21 @@
+import pexpect
+child = pexpect.spawn('ping www.google.com')
+
+while 1:
+    line = child.readline()
+    if not line: break
+    print (line)
+
+# import socket
+# def main(dest_name):
+#     dest_addr = socket.gethostbyname(dest_name)
+#     icmp = socket.getprotobyname('icmp')
+#     udp = socket.getprotobyname('udp')
+#     while True:
+#         recv_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, icmp) #opening connections
+#         send_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, udp) #opening connections
+#
+#         pass
+#
+# if __name__ == "__main__":
+#     main('google.com')
