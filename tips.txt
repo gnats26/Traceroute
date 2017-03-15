@@ -1,0 +1,11 @@
+1.git init
+2.git config user.name "someone"
+3.git config user.email "someone@someplace.com"
+4.git add *
+5.git commit -m "some init msg"
+
+-- this is most likely what youll have to do when you commit first time
+need to add all the details in the config file
+
+6. git push
+ this then asks your git username and pass
