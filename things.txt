@@ -1,6 +1,0 @@
-we have to do the following things
-- get a traceroute working with python
-- get a free api or map api (thinking of Google itself)
-- get a database or use one online freegeoip or maxmind or ip2location
-- put the destination on map
-- put the rest on the map
